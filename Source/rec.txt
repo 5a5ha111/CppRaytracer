@@ -1,0 +1,38 @@
+I[13:24:41.030] clangd version 19.1.2 (https://github.com/llvm/llvm-project 7ba7d8e2f7b6445b60679da826210cdde29eaf8b)
+I[13:24:41.031] Features: windows+grpc
+I[13:24:41.031] PID: 19444
+I[13:24:41.031] Working directory: o:\2025\Programs\CPlusPlus\CPPRaytracer\Source
+I[13:24:41.031] argv[0]: C:\Users\Аврора\AppData\Local\coc\extensions\coc-clangd-data\install\19.1.2\clangd_19.1.2\bin\clangd.exe
+I[13:24:41.035] Starting LSP over stdin/stdout
+I[13:24:41.035] <-- initialize(0)
+I[13:24:41.038] --> reply:initialize(0) 2 ms
+I[13:24:41.040] <-- initialized
+I[13:24:41.046] <-- textDocument/didOpen
+I[13:24:41.047] --> textDocument/publishDiagnostics
+I[13:24:41.047] Loaded compilation database from o:\2025\Programs\CPlusPlus\CPPRaytracer\compile_commands.json
+I[13:24:41.048] ASTWorker building file o:\2025\Programs\CPlusPlus\CPPRaytracer\Source\hittable.h version 1 with command inferred from O:/2025/Programs/CPlusPlus/CPPRaytracer/Source/main.cpp
+[O:/2025/Programs/CPlusPlus/CPPRaytracer]
+"C:\\Program Files\\LLVM\\bin\\clang++" --driver-mode=g++ -I O:/2025/Programs/CPlusPlus/CPPRaytracer/Source -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only -D_MT -D_DLL -DWIN32 -D_WINDOWS "-DCMAKE_INTDIR=\"Debug/\"" -D_DEBUG_FUNCTIONAL_MACHINERY -isystem "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/include" -isystem "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/atlmfc/include" -isystem "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/VS/include" -isystem "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt" -isystem "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um" -isystem "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared" -isystem "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt" -isystem "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt" -x c++-header -std=c++14 -I/O:/2025/Programs/CPlusPlus/CPPRaytracer/Source -std=c++14 -Wall -Wno-invalid-token-paste -fms-compatibility-version=19.10 "-resource-dir=C:\\Users\\\xD0\x90\xD0\xB2\xD1\x80\xD0\xBE\xD1\x80\xD0\xB0\\AppData\\Local\\coc\\extensions\\coc-clangd-data\\install\\19.1.2\\clangd_19.1.2\\lib\\clang\\19" -- "o:\\2025\\Programs\\CPlusPlus\\CPPRaytracer\\Source\\hittable.h"
+I[13:24:41.048] --> textDocument/publishDiagnostics
+I[13:24:41.048] --> window/workDoneProgress/create(0)
+I[13:24:41.049] Enqueueing 1 commands for indexing
+I[13:24:41.049] <-- reply(0)
+I[13:24:41.049] --> $/progress
+I[13:24:41.049] --> $/progress
+I[13:24:41.054] --> textDocument/clangd.fileStatus
+I[13:24:41.064] Built preamble of size 258768 for file o:\2025\Programs\CPlusPlus\CPPRaytracer\Source\hittable.h version 1 in 0.01 seconds
+I[13:24:41.064] --> workspace/semanticTokens/refresh(1)
+I[13:24:41.065] <-- reply(1)
+I[13:24:41.065] Indexing c++14 standard library in the context of o:\2025\Programs\CPlusPlus\CPPRaytracer\Source\hittable.h
+I[13:24:41.079] --> textDocument/publishDiagnostics
+I[13:24:41.079] --> textDocument/clangd.fileStatus
+I[13:24:41.153] --> $/progress
+I[13:24:41.153] --> $/progress
+I[13:24:41.250] <-- textDocument/documentLink(1)
+I[13:24:41.250] --> reply:textDocument/documentLink(1) 0 ms
+I[13:24:41.250] --> textDocument/clangd.fileStatus
+I[13:24:41.313] <-- textDocument/inlayHint(2)
+I[13:24:41.314] --> reply:textDocument/inlayHint(2) 0 ms
+I[13:24:41.314] --> textDocument/clangd.fileStatus
+I[13:24:42.774] Indexed c++14 standard library (incomplete due to errors): 11307 symbols, 8641 filtered
+

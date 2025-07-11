@@ -1,0 +1,10 @@
+# ignore all
+/*
+/Source/.cache/
+
+# track this
+!/Source/
+!/CmakeLists.txt
+!/Readme.md
+!/images/
+!/.gitignore
