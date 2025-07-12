@@ -19,11 +19,16 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set ( SOURCE_ONE_WEEKEND
   Source/main.cpp
   Source/color.h
+  Source/camera.h
   Source/hittable.h
   Source/hittable_list.h
+  Source/aabb.h
+  Source/bvh.h
   Source/interval.h
+  Source/material.h
   Source/ray.h
   Source/rtweekend.h
+  Source/ScenesConfig.h
   Source/sphere.h
   Source/vec3.h
 )

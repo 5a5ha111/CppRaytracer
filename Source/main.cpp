@@ -1,5 +1,6 @@
 #include "rtweekend.h"
 
+#include "bvh.h"
 #include "camera.h"
 #include "hittable.h"
 #include "hittable_list.h"
@@ -14,18 +15,9 @@ int main()
 
     world = GetSceneBookCover();
 
-    Camera cam;
+    world = hittable_list(make_shared<bvh_node>(world));
 
-    /*cam.aspect_ratio = 16.0 / 9.0;
-    cam.image_width  = 400;
-    cam.samples_per_pixel = 100;
-    cam.max_depth         = 10;
-    cam.vfov = 30;
-    cam.lookfrom = point3(-2,2,1);
-    cam.lookat   = point3(0,0,-1);
-    cam.vup      = vec3(0,1,0);
-    cam.defocus_angle = 10.0;
-    cam.focus_dist    = 3.4;*/
+    Camera cam;
 
     cam.aspect_ratio      = 16.0 / 9.0;
     cam.image_width       = 1200;
